@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head >
+    <meta charset="UTF-8">
+    <title>Sport and Spirit</title>
+    <style>
+        h1{text-align: center;}
+        hr{background-color: orange;}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+   <link rel=stylesheet href="projet css.css">
+
+</head>
+<body >
+<!--
+<h1>Sport & Spirit</h1>
+<hr>
+<a href="compte.html">Compte</a><br>
+<hr><br>
+-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
+  
+  <a class="navbar-brand h1" href="#">&nbsp;&nbsp;Sport And Spirit</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"  >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+     
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " href="acceuil.html">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="presentation.html">Presentation</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="local.html" class="nav-link">Local</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="produit.html" class="nav-link">Produit</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  " href="contact.html" class="nav-link">Contactez-nous</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active " href="compte.html" class="nav-link">Compte</a>
+                </li> 
+            </ul>
+
+</nav>
+<div style="border: 2px;text-align: center;;margin:20px 100px 20px 200px;padding:20px">
+    <h2 class="h2">inscription:</h2>
+    <form class="form" action="inscription.html" name="Fform" onsubmit="return validateForm2()">
+        <label class="form-label" for="fname">Prenom:</label><br>
+        <input class="form-control" type="text" id="fname" name="fname" placeholder="prenom" ><br><br>
+        <label class="form-label" for="lname">Nom de famille:</label><br>
+        <input class="form-control" type="text" id="lname" name="lname" placeholder="nom"><br><br>
+        <label  class="form-label" for="sexe">Votre sexe:</label><br>   
+        <select class="form-select" id="sexe" name="sexe">
+          <option value="homme">homme</option>
+          <option value="femme">femme</option>
+          <option value="autre">autre</option>
+        </select><br><br>
+
+        <label class="form-label" for="numtel">Numero de Telephone:</label><br>
+        <input class="form-control" type="tel" id="numtel" name="numtel" placeholder="(123)456-7890"><br><br>
+        <label class="form-label" for="gmail">Votre E-mail:</label><br>
+        <input class="form-control" type="email" id="gmail" name="gmail" placeholder="id@domaine.com"><br><br>
+        <label class="form-label" for="mdp">Votre mot de passe:</label><br>
+        <input class="form-control" type="text" id="mdp" name="mdp" ><br><br>
+        <label  class="form-label" for="cmdp">Confirmez votre mot de passe:</label><br>
+        <input  class="form-control" type="text" id="cmdp" name="cmdp" ><br><br>
+
+        <button class="form-control bouton"  type="submit" value="inscription" onclick="btnAlerte()">inscription</button>
+    </form> 
+    <i>Vous avez deja un compte?</i><a href="compte.html">compte</a>
+    </div>
+    <hr><br>
+    <i>Realisateur:OthmaneSedjari</i>
+    </body>
+    <script src="project js.js"></script>
+    </html> 

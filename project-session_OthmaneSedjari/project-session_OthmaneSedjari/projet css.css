@@ -1,0 +1,130 @@
+body{
+    background-color: antiquewhite;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 150%;
+    text-align: justify;
+    color: black;
+    background-color: orange;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: left;
+    color: black;
+    background-color: transparent;
+    
+    
+}
+#carouselJs {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#carouselJs1 {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+#precedent {
+    left: 0;
+}
+#suivant {
+    right: 0;
+}
+#carouselJs:hover #precedent,
+#carouselJs:hover #suivant {
+    opacity: 1;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80%;
+    text-indent: 8px;
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 16px;
+    background-color: transparent;
+    
+}
+ul,ol{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80%;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 0px;
+    background-color: transparent;
+   
+}
+a{
+    color:red;
+    text-decoration: underline;
+    background-color: transparent;
+    
+}
+.link{
+    color:red;
+    text-decoration: underline;
+    background-color: transparent;
+    
+}
+.visited{
+    color:blue;
+    opacity: 1;
+    text-decoration: overline;
+    background-color: transparent;
+}
+.hover{
+    color:red;
+    text-decoration: overline;
+    background-color: transparent;
+    
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+  
+  }
+
+table{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 80%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-color: gray;
+    border: solid;
+    border-width: 2px;
+    
+}
+th,td{
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+}
+.bg_Produit{
+   
+        background-image: url("images/orange_shoes.jpg") ;
+        
+        height: 100%;
+
+        background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+    
+}
+
+
